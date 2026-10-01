@@ -35,15 +35,15 @@
   },
   "overrides": {
     "@hono/node-server": "1.19.15",
-    "brace-expansion": "5.0.9",
+    "brace-expansion": "^5.0.9",
     "fast-uri": "3.1.6",
     "hono": "4.13.7",
-    "ip-address": "10.3.1",
-    "nanoid": "3.3.18",
-    "postcss": "8.5.23",
-    "protobufjs": "7.6.5",
+    "ip-address": "^10.3.1",
+    "nanoid": "^3.3.18",
+    "postcss": "^8.5.23",
+    "protobufjs": "^8.7.1",
     "sharp": "0.35.4",
-    "undici": "8.9.0"
+    "undici": "^6.28.0"
   },
   "devDependencies": {
     "@earendil-works/pi-ai": "^0.85.1",
@@ -51,7 +51,7 @@
     "@earendil-works/pi-tui": "^0.85.1",
     "typebox": "^1.3.28",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.0"
+    "vitest": "^4.0.0"
   },
   "pi": {
     "extensions": [
