@@ -23,6 +23,22 @@ autocontext is a harness for agent improvement. Give it a goal, it runs the task
 
 **Docs:** [autocontext.ai/docs](https://autocontext.ai/docs) · [quickstart](https://autocontext.ai/docs/get-started/quickstart) · [CLI reference](https://autocontext.ai/docs/cli/reference) · [changelog](https://autocontext.ai/docs/changelog)
 
+## 🎥 Gource Visualization
+
+De ontwikkelhistorie van dit project wordt automatisch gegenereerd door de [Gource workflow](.github/workflows/gource.yml) bij elke push — rendered via [nbprojekt/gource-action@v1](https://github.com/marketplace/actions/gource-action) in 1080p.
+
+<video src="https://raw.githubusercontent.com/itsdarklikehell/autocontext/main/gource/gource.mp4" controls width="100%"></video>
+
+Lokale video genereren:
+```bash
+gource --seconds-per-day 1 -1920x1080 --auto-skip-seconds 1 \
+  --hide-users --hide-filenames --title "autocontext — recursive self-improving harness" \
+  --output-ppm-stream - --output-framerate 30 2>/dev/null | \
+ffmpeg -y -r 30 -i - -c:v libx264 -preset fast -crf 23 \
+  -pix_fmt yuv420p -c:a aac -b:a 128k -movflags +faststart \
+  autocontext_gource_1080p.mp4 2>/dev/null
+```
+
 ## Install
 
 | Surface             | Command                               |
