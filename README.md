@@ -25,6 +25,12 @@ autocontext is a harness for agent improvement. Give it a goal, it runs the task
 
 ## 🎥 Gource Visualization
 
+
+[![CI](https://github.com/itsdarklikehell/autocontext/actions/workflows/ci.yml/badge.svg)](https://github.com/itsdarklikehell/autocontext/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/itsdarklikehell/autocontext)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+
 De ontwikkelhistorie van dit project wordt automatisch gegenereerd door de [Gource workflow](.github/workflows/gource.yml) bij elke push — rendered via [nbprojekt/gource-action@v1](https://github.com/marketplace/actions/gource-action) in 1080p.
 
 <video src="https://raw.githubusercontent.com/itsdarklikehell/autocontext/main/gource/gource.mp4" controls width="100%"></video>
