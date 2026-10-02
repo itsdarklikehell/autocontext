@@ -203,7 +203,7 @@
   },
   "peerDependencies": {
     "@anthropic-ai/sdk": ">=0.18 <2",
-    "openai": "^4 || ^7"
+    "openai": "^4.73.0"
   },
   "peerDependenciesMeta": {
     "@anthropic-ai/sdk": {
@@ -217,26 +217,26 @@
     "@hono/node-server": "1.19.15",
     "fast-uri": "3.1.6",
     "hono": "4.13.7",
-    "ip-address": "10.3.1",
-    "js-yaml": "4.3.1",
+    "ip-address": "^10.3.1",
+    "js-yaml": "^4.3.1",
     "@apidevtools/json-schema-ref-parser@^16.0.1": {
-      "js-yaml": "5.2.3",
-      "undici": "8.10.1"
+      "js-yaml": "^4.3.1",
+      "undici": "^6.28.0"
     },
-    "nanoid": "3.3.18",
-    "postcss": "8.5.23"
+    "nanoid": "^3.3.18",
+    "postcss": "^8.5.23"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
     "@apidevtools/json-schema-ref-parser": "^16.0.1",
     "@types/better-sqlite3": "^9.6.0",
     "@types/ws": "^8.5.13",
-    "esbuild": "^0.28.2",
+    "esbuild": "^0.28.1",
     "fast-check": "^4.7.0",
     "json-schema-to-typescript": "^15.0.4",
-    "openai": "^7",
-    "typescript": "^5.7.0",
-    "vitest": "^5.0.1"
+    "openai": "^4.73.0",
+    "typescript": "^7.0.2",
+    "vitest": "^4.0.0"
   },
   "dependencies": {
     "@earendil-works/pi-tui": "0.85.1",
@@ -254,7 +254,7 @@
     "tree-sitter-typescript": "0.21.2",
     "tsx": "^4.21.0",
     "ulid": "^3.0.2",
-    "undici": "8.9.0",
+    "undici": "^6.28.0",
     "ws": "^8.18.0",
     "zod": "^3.24.0"
   }
