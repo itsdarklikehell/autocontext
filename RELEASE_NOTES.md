@@ -1,7 +1,8 @@
 # Release Notes
 
-## 2026-10-02
+## 2026-10-03
 
+* docs: update RELEASE_NOTES.md (a8351823)
 * chore: add GitHub templates and workflows (18e178d3)
 * docs: add Gource development visualization section to README (dc037dd3)
 * 🎥 Update Gource visualization [skip ci] (1d2796cb)
@@ -21,4 +22,3 @@
 * fix: let pip installs upgrade 0.18 databases, and keep benchmark results out of the sdist (#1417) (5d8ea0e6)
 * Prepare Python and TypeScript 0.19.0 releases (#1416) (710ca645)
 * chore: renew the Accelerate risk acceptance after re-review (AC-1037) (#1409) (687b3132)
-* fix: refuse re-entering a run under a different provider or executor (AC-1046) (#1405) (607c1a39)
